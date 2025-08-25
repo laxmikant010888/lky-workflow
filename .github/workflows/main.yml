@@ -1,0 +1,13 @@
+name: Test Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test-job:
+    runs-on: LKYRunner   # agar tum apna runner use karna chahte ho
+    steps:
+      - name: Test Step
+        run: echo "Hello GitHub Actions! 🚀"
