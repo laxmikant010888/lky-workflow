@@ -1,6 +1,15 @@
+name: Test Workflow
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:   # optional: manual trigger bhi milega
+
 jobs:
   test-job:
     runs-on: [self-hosted, Windows, X64, LKYRunner]
+
     steps:
       - name: Test Step
-        run: echo "Runner is working fine on Windows X64!"
+        run: echo "Runner is working fine on Windows X64! 🚀"
