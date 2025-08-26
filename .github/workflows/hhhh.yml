@@ -7,7 +7,7 @@ on:
 
 jobs:
   test-job:
-    runs-on: self-hosted   # 👈 colon ke baad space hona chahiye
+    runs-on: LKYRunner   # 👈 colon ke baad space hona chahiye
 
     steps:
       - name: Say Hello
