@@ -1,12 +1,12 @@
 name: LKYRunner Test
 
 on:
-  workflow_dispatch:   # manually run karne ke liye Actions tab se
+  workflow_dispatch:
 
 jobs:
   test-job:
-    runs-on: [self-hosted, Windows, X64, LKYRunner]
+    runs-on: [self-hosted, Windows, X64]
 
     steps:
-      - name: Test Runner
-        run: echo "✅ LKYRunner is working fine on Windows X64!"
+      - name: Say Hello
+        run: echo "✅ Hello! LKYRunner is working correctly on Windows X64 🎉"
