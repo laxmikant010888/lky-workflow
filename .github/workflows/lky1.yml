@@ -1,0 +1,16 @@
+name: Mera first Runner
+on: 
+ push:
+    -main
+    -features/*
+jobs:
+ jobs: dhondh
+   runs-on: [sel-hosted, windows, x64]
+
+    steps:
+     -name: say hello
+      run: "Dhond Maharaj"
+     
+
+    
+    
