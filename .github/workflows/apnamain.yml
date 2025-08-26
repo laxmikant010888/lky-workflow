@@ -13,6 +13,5 @@ jobs:
 
     steps:
       - name: Say Hello (Bypass Execution Policy)
-        shell: powershell
-        run: |
-          powershell -ExecutionPolicy Bypass -Command "Write-Output '✅ Hello! LKYRunner is working correctly on Windows X64 🎉'"
+        run: echo " Dhondu Maharaj "
+          
