@@ -1,0 +1,8 @@
+jobs:
+  test-job:
+    runs-on:self-hosted
+    steps:
+      - name: Say Hello
+        shell: powershell
+        run: |
+          powershell -ExecutionPolicy Bypass -Command "Write-Output '✅ Hello! LKYRunner is working correctly on Windows X64 🎉'"
