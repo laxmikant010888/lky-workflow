@@ -1,6 +1,14 @@
+name: LKYRunner Push Test
+
+on:
+  push:
+    branches:
+      - main
+
 jobs:
   test-job:
-    runs-on:self-hosted
+    runs-on: self-hosted   # 👈 colon ke baad space hona chahiye
+
     steps:
       - name: Say Hello
         shell: powershell
